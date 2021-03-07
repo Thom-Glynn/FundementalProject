@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Thom Glynn"/>
+    
+    
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <title>Fundemental Frontend</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="makeItRed">
+        <div class="container-fluid" id="divNav">
+          <a class="navbar-brand" id="MakeItRed" href="shoppingList.html" target="_blank">CheckList</a>
+        </div>
+      </nav>
+      <h1 id="listTitle">Thom's Shopping List</h1>      
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Item name</th>
+            <th scope="col">quantity</th>
+            <th scope="col">price(£)</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody id="tableData">
+            <tr>
+                <th scope="row">#</th>
+                <td> <input type="text" id="itemNameBox"/> </td>               
+                <td> <select class="form-select" aria-label="Default select example" id="quantityBox">
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select> </td>               
+                <td> <input type="text" id="priceBox"/> </td>    
+                <td> <button class="btn btn-outline-success" id="addToTable">Submit</button></td>            
+            </tr>
+          </tr>
+        </tbody>
+      </table>
+      <p id="totalPrice"></p>
+      <div id="div1"></div>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" 
+    crossorigin="anonymous">
+</script>
+<script src="index.js"></script>
+</body>
+</html>

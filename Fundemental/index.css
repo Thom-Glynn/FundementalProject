@@ -1,0 +1,38 @@
+#divNav{
+    display: block;
+background-color: salmon;
+}
+.aDeleteButton{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    font-size: small;
+    display: inline-block;
+}
+.pickedUp{
+    background-color: greenyellow;
+}
+.putBack{
+    background-color: 0,0,0;
+}
+
+#notInStock{
+    display: block;
+    height: 20px;
+    padding: 20px;
+    background-color: red;
+}
+
+nav{
+    background-color: crimson;
+}
+
+.highlight{
+    background-color: greenyellow;
+}
+
+#makeItRed{
+    border-style: solid;
+    border: 80px;
+    border-color: salmon;
+}
